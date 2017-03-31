@@ -13,6 +13,8 @@
 		4B9EFCE81E8D4109000F7583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EFCE61E8D4109000F7583 /* Main.storyboard */; };
 		4B9EFCEA1E8D4109000F7583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EFCE91E8D4109000F7583 /* Assets.xcassets */; };
 		4B9EFCED1E8D4109000F7583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EFCEB1E8D4109000F7583 /* LaunchScreen.storyboard */; };
+		966626FD1E8DE25B00E4284C /* CustomerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966626FB1E8DE25B00E4284C /* CustomerTableViewCell.m */; };
+		966627021E8DE2D100E4284C /* CuuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966627001E8DE2D100E4284C /* CuuTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4B9EFCE91E8D4109000F7583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9EFCEC1E8D4109000F7583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9EFCEE1E8D4109000F7583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966626FA1E8DE25B00E4284C /* CustomerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewCell.h; sourceTree = "<group>"; };
+		966626FB1E8DE25B00E4284C /* CustomerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewCell.m; sourceTree = "<group>"; };
+		966626FF1E8DE2D100E4284C /* CuuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuuTableViewCell.h; sourceTree = "<group>"; };
+		966627001E8DE2D100E4284C /* CuuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuuTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				4B9EFCE11E8D4109000F7583 /* AppDelegate.m */,
 				4B9EFCE31E8D4109000F7583 /* ViewController.h */,
 				4B9EFCE41E8D4109000F7583 /* ViewController.m */,
+				966626FA1E8DE25B00E4284C /* CustomerTableViewCell.h */,
+				966626FB1E8DE25B00E4284C /* CustomerTableViewCell.m */,
+				966626FF1E8DE2D100E4284C /* CuuTableViewCell.h */,
+				966627001E8DE2D100E4284C /* CuuTableViewCell.m */,
 				4B9EFCE61E8D4109000F7583 /* Main.storyboard */,
 				4B9EFCE91E8D4109000F7583 /* Assets.xcassets */,
 				4B9EFCEB1E8D4109000F7583 /* LaunchScreen.storyboard */,
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9EFCE51E8D4109000F7583 /* ViewController.m in Sources */,
+				966627021E8DE2D100E4284C /* CuuTableViewCell.m in Sources */,
 				4B9EFCE21E8D4109000F7583 /* AppDelegate.m in Sources */,
 				4B9EFCDF1E8D4109000F7583 /* main.m in Sources */,
+				966626FD1E8DE25B00E4284C /* CustomerTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chenxiao lu (S9CRBXZC26)";
 				INFOPLIST_FILE = "scoket_客户端/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pengfei.com.scoket----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZDCXYF.ZDCXYF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -273,9 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chenxiao lu (S9CRBXZC26)";
 				INFOPLIST_FILE = "scoket_客户端/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pengfei.com.scoket----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZDCXYF.ZDCXYF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -299,6 +313,7 @@
 				4B9EFCF31E8D4109000F7583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
